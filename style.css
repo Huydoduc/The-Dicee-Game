@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-  margin: 30px;
+  margin: 1.5rem;
   font-family: "Lobster", cursive;
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
@@ -30,7 +30,26 @@ p {
 img {
   width: 80%;
 }
-
+button {
+  display: block;
+  margin: 40px auto;
+  padding: 20px 50px;
+  font-family: "Lobster", cursive;
+  font-size: 3rem;
+  border: none;
+  border-radius: 20px;
+  background-color: #eeeeee;
+  color: #4ecca3;
+}
+button:hover {
+  opacity: 0.9;
+}
+button:focus {
+  outline: none;
+}
+button:active {
+  transform: scale(0.98);
+}
 footer {
   margin-top: 5%;
   color: #eeeeee;
